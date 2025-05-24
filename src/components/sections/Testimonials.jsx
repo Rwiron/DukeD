@@ -7,35 +7,53 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: "Okasa Samah",
+      name: "Okasa Saleh",
       role: "Real Estate Developer",
-      image: "https://randomuser.me/api/portraits/men/32.jpg",
+      image:
+        "https://st4.depositphotos.com/12071432/21067/i/450/depositphotos_210679084-stock-photo-smiling-african-american-businessman-holding.jpg",
       quote:
-        "Duke Developers transformed our property into a modern space that exceeds expectations. Their attention to detail and expertise in construction are remarkable.",
+        "Duke Developers transformed our property into a modern space that truly feels like home. I appreciated their patience, ideas, and dedication throughout the entire project.",
     },
     {
       id: 2,
-      name: "Willian Kabbah",
+      name: "William Carter",
       role: "IT Consultant",
-      image: "https://randomuser.me/api/portraits/men/46.jpg",
+      image: "https://randomuser.me/api/portraits/men/45.jpg",
       quote:
-        "The IT solutions provided by Duke Developers significantly enhanced our business operations. Their cybersecurity services are top-notch!",
+        "Their IT team helped us rebuild our system from the ground up. Security, speed, and ease-of-use—Duke Developers delivered on all fronts.",
     },
     {
       id: 3,
+      name: "Nyasha Mbaye",
+      role: "Project Supervisor",
+      image:
+        "https://news.providence.edu/files/2021/01/smith-purviance-256x300.jpg",
+      quote:
+        "From the very first meeting, I could tell they truly listened. They met every deadline and brought clarity to even the most complex parts of the project.",
+    },
+    {
+      id: 4,
       name: "Sarah Parker",
       role: "Project Manager",
       image: "https://randomuser.me/api/portraits/women/28.jpg",
       quote:
-        "Working with Duke Developers on our infrastructure project was seamless. Their professionalism and adherence to deadlines were impressive.",
+        "Working with Duke Developers felt like a partnership. Their team was respectful, reliable, and always a step ahead.",
     },
     {
-      id: 4,
+      id: 5,
       name: "Samuel Dorley",
       role: "Architect",
       image: "https://randomuser.me/api/portraits/men/75.jpg",
       quote:
-        "Their expertise in architectural design brought our vision to life. Duke Developers is my go-to firm for innovative and sustainable designs.",
+        "We had a bold vision for our new space, and they brought it to life exactly the way we imagined—maybe even better.",
+    },
+    {
+      id: 6,
+      name: "Elena Fischer",
+      role: "Interior Designer",
+      image: "https://randomuser.me/api/portraits/women/65.jpg",
+      quote:
+        "Every design choice was thoughtful. Duke Developers understands both beauty and function, and it shows in their work.",
     },
   ];
 

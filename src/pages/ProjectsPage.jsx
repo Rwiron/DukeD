@@ -16,12 +16,12 @@ const ProjectsPage = () => {
       title: "Riverfront Office Complex",
       category: "commercial",
       type: "Construction",
-      location: "Seattle, WA",
+      location: "Africa",
       year: "2022",
       description:
         "A modern 12-story office building with sustainable features including solar panels, rainwater collection, and energy-efficient systems.",
       image:
-        "https://images.unsplash.com/photo-1486325212027-8081e485255e?q=80&w=2070&auto=format&fit=crop",
+        "https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       featured: true,
     },
     {
@@ -34,7 +34,7 @@ const ProjectsPage = () => {
       description:
         "Custom software solution for monitoring and controlling building systems including HVAC, lighting, security, and energy usage in real-time.",
       image:
-        "https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=1964&auto=format&fit=crop",
+        "https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       featured: true,
     },
     {
@@ -42,12 +42,12 @@ const ProjectsPage = () => {
       title: "Oak Hills Residential Community",
       category: "residential",
       type: "Construction",
-      location: "Portland, OR",
+      location: "Africa, Liberia",
       year: "2021",
       description:
         "Development of 45 single-family homes with a focus on energy efficiency and community-centered design with shared green spaces.",
       image:
-        "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=1973&auto=format&fit=crop",
+        "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       featured: false,
     },
     {
@@ -55,12 +55,12 @@ const ProjectsPage = () => {
       title: "Solar Farm Installation",
       category: "energy",
       type: "Renewable Energy",
-      location: "Phoenix, AZ",
+      location: "Africa, Liberia",
       year: "2023",
       description:
         "Installation of a 15-acre solar farm with tracking panels, producing enough energy to power 1,200 homes annually.",
       image:
-        "https://images.unsplash.com/photo-1509391366360-2959dba8436c?q=80&w=1974&auto=format&fit=crop",
+        "https://images.pexels.com/photos/159397/solar-panel-array-power-sun-electricity-159397.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       featured: true,
     },
     {
@@ -68,12 +68,12 @@ const ProjectsPage = () => {
       title: "Lakeside Hotel & Resort",
       category: "commercial",
       type: "Construction & Design",
-      location: "Lake Tahoe, CA",
+      location: "Africa",
       year: "2022",
       description:
         "A luxury 120-room hotel with conference facilities, spa, and restaurant, designed to blend with the natural surroundings.",
       image:
-        "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2070&auto=format&fit=crop",
+        "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       featured: false,
     },
     {
@@ -86,7 +86,7 @@ const ProjectsPage = () => {
       description:
         "Mobile application for healthcare facilities to manage patient scheduling, staff resources, and inventory tracking.",
       image:
-        "https://images.unsplash.com/photo-1594050753831-dd6a671cb4a9?q=80&w=1974&auto=format&fit=crop",
+        "https://images.pexels.com/photos/5699456/pexels-photo-5699456.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       featured: false,
     },
     {
@@ -94,12 +94,12 @@ const ProjectsPage = () => {
       title: "Urban Mixed-Use Development",
       category: "commercial",
       type: "Construction",
-      location: "Chicago, IL",
+      location: "Africa",
       year: "2023",
       description:
         "A six-block urban renewal project featuring retail, office space, apartments, and public plazas with sustainable design principles.",
       image:
-        "https://images.unsplash.com/photo-1492105233900-2959dba8436c?q=80&w=1974&auto=format&fit=crop",
+        "https://images.pexels.com/photos/2404843/pexels-photo-2404843.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       featured: false,
     },
     {
@@ -112,7 +112,7 @@ const ProjectsPage = () => {
       description:
         "Implementation of smart home systems in a residential development, including automated lighting, climate control, and security.",
       image:
-        "https://images.unsplash.com/photo-1558002038-1055e2e28ed1?q=80&w=2070&auto=format&fit=crop",
+        "https://images.pexels.com/photos/3846022/pexels-photo-3846022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       featured: false,
     },
     {
@@ -120,12 +120,12 @@ const ProjectsPage = () => {
       title: "Corporate Headquarters Redesign",
       category: "commercial",
       type: "Interior Design",
-      location: "Denver, CO",
+      location: "Africa",
       year: "2022",
       description:
         "Complete redesign of a 50,000 sq ft corporate headquarters focusing on collaborative workspaces and employee wellness.",
       image:
-        "https://images.unsplash.com/photo-1497215842964-222b430dc094?q=80&w=1470&auto=format&fit=crop",
+        "https://images.pexels.com/photos/1170412/pexels-photo-1170412.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       featured: false,
     },
     {
@@ -133,12 +133,12 @@ const ProjectsPage = () => {
       title: "Community Wind Turbine Project",
       category: "energy",
       type: "Renewable Energy",
-      location: "Iowa City, IA",
+      location: "Africa",
       year: "2021",
       description:
         "Installation of five community-owned wind turbines providing clean energy to a rural area with energy co-op structure.",
       image:
-        "https://images.unsplash.com/photo-1467533003447-e295ff1b0435?q=80&w=1470&auto=format&fit=crop",
+        "https://images.pexels.com/photos/414837/pexels-photo-414837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       featured: false,
     },
     {
@@ -146,12 +146,12 @@ const ProjectsPage = () => {
       title: "Modular Affordable Housing",
       category: "residential",
       type: "Construction",
-      location: "Austin, TX",
+      location: "Africa",
       year: "2022",
       description:
         "Development of 120 units of affordable housing using modular construction techniques to reduce costs and construction time.",
       image:
-        "https://images.unsplash.com/photo-1513880989635-6eb491ce7f5b?q=80&w=2074&auto=format&fit=crop",
+        "https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       featured: false,
     },
     {
@@ -164,7 +164,7 @@ const ProjectsPage = () => {
       description:
         "Cloud-based software platform for construction project management, including scheduling, resource allocation, and document control.",
       image:
-        "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=2070&auto=format&fit=crop",
+        "https://images.pexels.com/photos/7376/startup-photos.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       featured: false,
     },
   ];

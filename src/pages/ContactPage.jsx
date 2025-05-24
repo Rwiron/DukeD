@@ -49,10 +49,10 @@ const ContactPage = () => {
   const offices = [
     {
       id: 1,
-      city: "Katy, TX",
+      city: "Virtual /US Maibox address",
       address: "21803 Morton Rd Ste 650 #050 Katy, TX 77449",
       phone: "+1 (206) 555-0123",
-      email: "info@dukedevelopers.com",
+      email: "info@dukedevelopersinc.com",
       hours: "Monday - Friday: 8:30 AM - 5:30 PM",
     },
     {
@@ -60,7 +60,7 @@ const ContactPage = () => {
       city: "Monrovia",
       address: "Central District, Monrovia, Liberia",
       phone: "+231 886 877 284 / +358413114800",
-      email: "liberia@dukedevelopers.com",
+      email: "info@dukedevelopersinc.com",
       hours: "Monday - Friday: 8:00 AM - 5:00 PM",
     },
   ];
@@ -119,6 +119,8 @@ const ContactPage = () => {
               Our team is available during business hours
             </p>
             <p className="text-blue-600 font-medium">+1 (206) 555-0123</p>
+            <p className="text-blue-600 font-medium">+231 886 877 284</p>
+            <p className="text-blue-600 font-medium">+358 413 114 800</p>
           </motion.div>
 
           <motion.div
@@ -145,7 +147,9 @@ const ContactPage = () => {
             </div>
             <h3 className="text-xl font-bold text-gray-800 mb-2">Email Us</h3>
             <p className="text-gray-600 mb-4">Send us an email anytime</p>
-            <p className="text-blue-600 font-medium">info@dukedevelopers.com</p>
+            <p className="text-blue-600 font-medium">
+              info@dukedevelopersinc.com
+            </p>
           </motion.div>
 
           <motion.div
@@ -180,7 +184,7 @@ const ContactPage = () => {
             <p className="text-gray-600 mb-4">Our main office location</p>{" "}
             <p className="text-blue-600 font-medium">
               {" "}
-              21803 Morton Rd Ste 650 #050 Katy, TX 77449{" "}
+              Johnsonville, Monrovia, Liberia{" "}
             </p>
           </motion.div>
         </div>
@@ -528,10 +532,7 @@ const ContactPage = () => {
                     What areas do you serve?
                   </h3>
                   <p className="text-gray-300">
-                    We primarily serve the Pacific Northwest, Southwest, and
-                    Mountain West regions, with offices in Seattle, Portland,
-                    and Phoenix. However, we take on projects nationwide for our
-                    software development and consulting services.
+                    We primarily serve Africa, particularly Liberia, as well as North America and Europe. We have offices in Monrovia, Liberia and a virtual office in the United States. We offer our construction, software development, and renewable energy services across these regions.
                   </p>
                 </div>
                 <div>

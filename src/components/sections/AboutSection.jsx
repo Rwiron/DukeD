@@ -71,18 +71,49 @@ const AboutSection = () => {
 
             <motion.div className="space-y-4 text-gray-600" variants={fadeIn}>
               <p>
-                Duke Developers is a multidisciplinary firm with expertise in
-                construction, project management, IT services, and interior and
-                exterior design. We operate across Africa, North America, and
-                Europe, delivering cutting-edge solutions tailored to our
-                clients' needs.
+                Duke Developers started in 2013 with a simple goal: to help
+                bring ideas to life through thoughtful design, careful planning,
+                and solid execution. Over the years, we’ve grown into a trusted
+                partner in construction, project management, IT services, and
+                interior and exterior design. We’ve worked across Africa, North
+                America, and Europe, completing more than 350 projects—each one
+                a reflection of our commitment to quality and detail.
               </p>
+
               <p>
-                Our team is passionate about leveraging the latest technological
-                advancements to design and develop sustainable infrastructure.
-                From construction and real estate management to renewable energy
-                solutions and software development, Duke Developers is committed
-                to excellence in every project we undertake.
+                What makes us different isn’t just the work we do—it’s how we do
+                it. Our team cares deeply about every project, no matter the
+                size. We take time to understand what each client really needs
+                and use the latest tools and ideas to make it happen. Whether
+                it's building a new office, developing a website, or designing
+                an energy-efficient home, we always keep people at the center of
+                our work.
+              </p>
+
+              <p>
+                In 2023, we completed 42 major projects across 15 countries.
+                Some highlights include the Riverfront Office Complex in Seattle
+                and our new Smart Building Management System, which helps
+                businesses cut energy costs by up to 30%. These projects aren’t
+                just wins for us—they’re examples of how modern technology and
+                thoughtful design can make life better for people using the
+                spaces we create.
+              </p>
+
+              <p>
+                We’re proud to say that 98% of our clients report being happy
+                with the results. Many come back for more work or recommend us
+                to others. That kind of trust means everything to us. It pushes
+                us to stay curious, learn more, and keep improving.
+              </p>
+
+              <p>
+                As we look to the future, we’re excited about exploring new
+                ideas in green construction, smart technologies, and ways to
+                share our knowledge with the next generation of builders and
+                developers. We believe in building more than projects—we believe
+                in building relationships, solving real problems, and leaving
+                things better than we found them.
               </p>
             </motion.div>
 

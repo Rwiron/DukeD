@@ -57,7 +57,7 @@ const ServicesPage = () => {
       title: "Project Management",
       description:
         "We manage your projects from inception to completion, optimizing resources and mitigating risks effectively.",
-      image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1517581177682-a085bb7ffb38?q=80&w=1000&auto=format&fit=crop",
       category: "construction",
       icon: (
         <svg
@@ -416,9 +416,9 @@ const ServicesPage = () => {
               Our team of experts is ready to help you with a personalized
               service package tailored to your specific requirements.
             </p>
-            <button className="px-8 py-3 bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white font-medium rounded-md transition-colors duration-300">
-              Request a Consultation
-            </button>
+            <Link to="/contact" className="px-8 py-3 bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white font-medium rounded-md transition-colors duration-300">
+              Contact Us
+            </Link>
           </div>
         </motion.div>
       </div>

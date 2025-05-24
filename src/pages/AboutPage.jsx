@@ -28,33 +28,6 @@ const AboutPage = () => {
     { number: "15+", label: "Countries Served" },
   ];
 
-  const teamMembers = [
-    {
-      name: "Alex Johnson",
-      role: "CEO & Founder",
-      image: "/images/team/team-1.jpg",
-      bio: "With over 15 years of industry experience, Alex leads our company with vision and passion.",
-    },
-    {
-      name: "Sarah Williams",
-      role: "Lead Architect",
-      image: "/images/team/team-2.jpg",
-      bio: "Sarah brings creative solutions to the most complex architectural challenges.",
-    },
-    {
-      name: "Michael Chen",
-      role: "Software Director",
-      image: "/images/team/team-3.jpg",
-      bio: "Michael oversees our software development with a focus on innovation and quality.",
-    },
-    {
-      name: "Rachel Garcia",
-      role: "Renewable Energy Specialist",
-      image: "/images/team/team-4.jpg",
-      bio: "Rachel's expertise in renewable energy drives our sustainability initiatives.",
-    },
-  ];
-
   const milestones = [
     {
       year: "2013",
@@ -105,7 +78,7 @@ const AboutPage = () => {
 
         {/* Tabs navigation */}
         <div className="mt-12 flex flex-wrap justify-center gap-2 md:gap-4 mb-8">
-          {["story", "mission", "team", "history"].map((tab, index) => (
+          {["story", "mission"].map((tab, index) => (
             <motion.button
               key={tab}
               className={`px-4 py-2 rounded-full text-sm md:text-base font-medium transition-all duration-300 ${
@@ -117,7 +90,7 @@ const AboutPage = () => {
               custom={index}
               variants={fadeInUp}
               initial="hidden"
-              whileInView="visible"
+              animate="visible"
               viewport={{ once: true, margin: "-100px" }}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -132,68 +105,162 @@ const AboutPage = () => {
           {/* Story Tab */}
           {activeTab === "story" && (
             <motion.div
-              initial={{ opacity: 0 }}
+              initial={{ opacity: 1 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              transition={{ duration: 0.5 }}
-              className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center"
+              transition={{ duration: 0.3 }}
+              className="space-y-12"
             >
-              <div className="relative h-[400px] rounded-xl overflow-hidden shadow-xl">
-                <LazyImage
-                  src="/images/about-story.jpg"
-                  alt="Duke Developers Office"
-                  containerClassName="w-full h-full"
-                  className="w-full h-full object-cover"
-                  skeletonClassName="bg-gray-200"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
-                  <p className="text-white text-lg font-medium">
-                    Our headquarters in Miami, Florida
-                  </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div className="space-y-6">
+                  <motion.h3
+                    className="text-2xl font-bold text-gray-800"
+                    initial={{ opacity: 1, y: 0 }}
+                    animate={{ opacity: 1, y: 0 }}
+                  >
+                    A Decade of Excellence
+                  </motion.h3>
+                  <motion.p
+                    className="text-gray-600"
+                    initial={{ opacity: 1, y: 0 }}
+                    animate={{ opacity: 1, y: 0 }}
+                  >
+                    Founded in 2013, Duke Developers began as a visionary
+                    startup with a mission to disrupt traditional development
+                    paradigms. Our founder, Alex Johnson, recognized an
+                    opportunity to blend construction expertise with
+                    cutting-edge technology, creating a company that stands at
+                    the intersection of physical and digital innovation.
+                  </motion.p>
+                  <motion.p
+                    className="text-gray-600"
+                    initial={{ opacity: 1, y: 0 }}
+                    animate={{ opacity: 1, y: 0 }}
+                  >
+                    Today, we're a multidisciplinary powerhouse with expertise
+                    spanning construction, software development, and renewable
+                    energy. This unique convergence enables us to tackle complex
+                    challenges with integrated solutions that leverage the
+                    latest technologies and sustainable practices.
+                  </motion.p>
+                </div>
+
+                <div className="space-y-6">
+                  <motion.h3
+                    className="text-2xl font-bold text-gray-800"
+                    initial={{ opacity: 1, y: 0 }}
+                    animate={{ opacity: 1, y: 0 }}
+                  >
+                    Our Impact
+                  </motion.h3>
+                  <motion.p
+                    className="text-gray-600"
+                    initial={{ opacity: 1, y: 0 }}
+                    animate={{ opacity: 1, y: 0 }}
+                  >
+                    Over the past decade, we've completed over 200 projects
+                    across 15 countries, building a diverse portfolio that
+                    showcases our versatility and commitment to excellence. Our
+                    team of 50+ experts brings diverse perspectives and
+                    specialized knowledge to every challenge, ensuring
+                    innovative solutions that exceed expectations.
+                  </motion.p>
+                  <motion.p
+                    className="text-gray-600"
+                    initial={{ opacity: 1, y: 0 }}
+                    animate={{ opacity: 1, y: 0 }}
+                  >
+                    As we look to the future, we remain committed to pushing
+                    boundaries and embracing emerging technologies. From
+                    AI-powered project management to sustainable building
+                    materials, we're constantly exploring new ways to deliver
+                    exceptional value while minimizing environmental impact.
+                  </motion.p>
                 </div>
               </div>
 
-              <div className="space-y-6">
-                <motion.h3
-                  className="text-2xl font-bold text-gray-800"
-                  variants={fadeInUp}
-                  custom={0}
-                >
-                  A Decade of Excellence
-                </motion.h3>
-                <motion.p
-                  className="text-gray-600"
-                  variants={fadeInUp}
-                  custom={1}
-                >
-                  Founded in 2013, Duke Developers began as a small construction
-                  company with big dreams. Our founder, Alex Johnson, saw an
-                  opportunity to create a different kind of development
-                  company—one that prioritized quality, sustainability, and
-                  client satisfaction above all else.
-                </motion.p>
-                <motion.p
-                  className="text-gray-600"
-                  variants={fadeInUp}
-                  custom={2}
-                >
-                  Over the years, we've evolved from a construction-focused firm
-                  to a multidisciplinary company offering services across
-                  construction, software development, and renewable energy
-                  sectors. This unique combination allows us to provide
-                  integrated solutions that meet the complex needs of modern
-                  projects.
-                </motion.p>
-                <motion.p
-                  className="text-gray-600"
-                  variants={fadeInUp}
-                  custom={3}
-                >
-                  Today, Duke Developers stands as an industry leader,
-                  recognized for our innovative approach and unwavering
-                  commitment to excellence in everything we do.
-                </motion.p>
+              {/* Stats Display */}
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
+                {stats.map((stat, index) => (
+                  <motion.div
+                    key={index}
+                    className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center"
+                    initial={{ opacity: 1, y: 0 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    whileHover={{
+                      y: -5,
+                      boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1)",
+                    }}
+                    transition={{ duration: 0.2 }}
+                  >
+                    <h4 className="text-3xl md:text-4xl font-bold text-blue-600 mb-2">
+                      {stat.number}
+                    </h4>
+                    <p className="text-gray-600 text-sm md:text-base">
+                      {stat.label}
+                    </p>
+                  </motion.div>
+                ))}
               </div>
+
+              {/* Timeline Chart */}
+              <motion.div
+                className="mt-16"
+                initial={{ opacity: 1 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.3 }}
+              >
+                <h3 className="text-2xl font-bold text-center text-gray-800 mb-10">
+                  Our Journey
+                </h3>
+                <div className="relative">
+                  {/* Timeline Line */}
+                  <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-blue-200 rounded-full"></div>
+
+                  {/* Timeline Items */}
+                  <div className="space-y-16">
+                    {milestones.map((milestone, index) => (
+                      <motion.div
+                        key={index}
+                        className={`relative flex items-center ${
+                          index % 2 === 0 ? "flex-row" : "flex-row-reverse"
+                        }`}
+                        initial={{ opacity: 1, y: 0 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.3 }}
+                      >
+                        {/* Content */}
+                        <div
+                          className={`w-5/12 ${
+                            index % 2 === 0
+                              ? "text-right pr-8"
+                              : "text-left pl-8"
+                          }`}
+                        >
+                          <h4 className="text-xl font-bold text-gray-800">
+                            {milestone.title}
+                          </h4>
+                          <p className="text-gray-600 mt-2">
+                            {milestone.description}
+                          </p>
+                        </div>
+
+                        {/* Year Marker */}
+                        <div className="absolute left-1/2 transform -translate-x-1/2 flex flex-col items-center">
+                          <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center shadow-lg z-10">
+                            <span className="text-white font-bold text-sm">
+                              {milestone.year}
+                            </span>
+                          </div>
+                        </div>
+
+                        {/* Empty Space for even distribution */}
+                        <div className="w-5/12"></div>
+                      </motion.div>
+                    ))}
+                  </div>
+                </div>
+              </motion.div>
             </motion.div>
           )}
 
@@ -213,7 +280,11 @@ const AboutPage = () => {
               >
                 Our Mission
               </motion.h3>
-              <motion.p className="text-xl text-gray-800 text-center max-w-3xl mx-auto" variants={fadeInUp} custom={1}>
+              <motion.p
+                className="text-xl text-gray-800 text-center max-w-3xl mx-auto"
+                variants={fadeInUp}
+                custom={1}
+              >
                 "To transform visions into reality through innovative design,
                 sustainable practices, and cutting-edge technology, creating
                 spaces and solutions that enrich lives and communities."
@@ -351,133 +422,6 @@ const AboutPage = () => {
                   />
                 </BentoGrid>
               </motion.div>
-            </motion.div>
-          )}
-
-          {/* Team Tab */}
-          {activeTab === "team" && (
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 0.5 }}
-            >
-              <div className="mb-10 text-center max-w-2xl mx-auto">
-                <h3 className="text-2xl font-bold text-gray-800 mb-4">
-                  Meet Our Leadership
-                </h3>
-                <p className="text-gray-600">
-                  Our diverse team of experts brings together decades of
-                  experience across construction, software development, and
-                  renewable energy.
-                </p>
-              </div>
-
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                {teamMembers.map((member, index) => (
-                  <motion.div
-                    key={member.name}
-                    className="bg-white rounded-xl overflow-hidden shadow-lg"
-                    variants={fadeInUp}
-                    custom={index}
-                    whileHover={{
-                      y: -5,
-                      boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.25)",
-                    }}
-                    transition={{ duration: 0.3 }}
-                  >
-                    <div className="relative h-64">
-                      <LazyImage
-                        src={member.image}
-                        alt={member.name}
-                        containerClassName="w-full h-full"
-                        className="w-full h-full object-cover"
-                        skeletonClassName="bg-gray-200"
-                      />
-                    </div>
-                    <div className="p-6">
-                      <h4 className="text-xl font-bold text-gray-800">
-                        {member.name}
-                      </h4>
-                      <p className="text-blue-600 font-medium mb-3">
-                        {member.role}
-                      </p>
-                      <p className="text-gray-600">{member.bio}</p>
-                    </div>
-                  </motion.div>
-                ))}
-              </div>
-
-              <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8">
-                {stats.map((stat, index) => (
-                  <motion.div
-                    key={stat.label}
-                    className="bg-blue-50 p-6 rounded-xl text-center"
-                    variants={fadeInUp}
-                    custom={index}
-                    whileHover={{ scale: 1.05 }}
-                  >
-                    <p className="text-4xl font-bold text-blue-600 mb-2">
-                      {stat.number}
-                    </p>
-                    <p className="text-gray-700">{stat.label}</p>
-                  </motion.div>
-                ))}
-              </div>
-            </motion.div>
-          )}
-
-          {/* History Tab */}
-          {activeTab === "history" && (
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 0.5 }}
-              className="space-y-10"
-            >
-              <div className="max-w-3xl mx-auto">
-                <div className="relative">
-                  {/* Timeline line */}
-                  <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 h-full w-1 bg-blue-200"></div>
-
-                  {/* Timeline entries */}
-                  {milestones.map((milestone, index) => (
-                    <motion.div
-                      key={milestone.year}
-                      className={`relative flex flex-col md:flex-row ${
-                        index % 2 === 0 ? "md:flex-row-reverse" : ""
-                      } mb-12`}
-                      variants={fadeInUp}
-                      custom={index}
-                    >
-                      <div className="md:w-1/2"></div>
-                      <div className="z-10 flex items-center justify-center md:absolute md:left-1/2 md:transform md:-translate-x-1/2 mb-4 md:mb-0">
-                        <div className="w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-lg shadow-lg">
-                          {milestone.year.substring(2)}
-                        </div>
-                      </div>
-                      <Card
-                        className={`md:w-1/2 ${
-                          index % 2 === 0 ? "md:pr-16" : "md:pl-16"
-                        }`}
-                      >
-                        <div className="p-2">
-                          <div className="text-sm text-blue-600 font-semibold mb-1">
-                            {milestone.year}
-                          </div>
-                          <h4 className="text-xl font-bold text-gray-800 mb-2">
-                            {milestone.title}
-                          </h4>
-                          <p className="text-gray-600">
-                            {milestone.description}
-                          </p>
-                        </div>
-                      </Card>
-                    </motion.div>
-                  ))}
-                </div>
-              </div>
             </motion.div>
           )}
         </div>

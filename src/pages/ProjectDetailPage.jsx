@@ -10,7 +10,7 @@ const projectsData = [
     title: "Riverfront Office Complex",
     category: "commercial",
     type: "Construction",
-    location: "Seattle, WA",
+    location: "Africa",
     year: "2022",
     description:
       "A modern 12-story office building with sustainable features including solar panels, rainwater collection, and energy-efficient systems.",
@@ -78,7 +78,7 @@ The SBMS integrates with existing building systems through standard protocols an
     title: "Solar Farm Installation",
     category: "energy",
     type: "Renewable Energy",
-    location: "Phoenix, AZ",
+    location: "Africa, Liberia",
     year: "2023",
     description:
       "Installation of a 15-acre solar farm with tracking panels, producing enough energy to power 1,200 homes annually.",

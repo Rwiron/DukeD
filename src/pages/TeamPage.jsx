@@ -79,7 +79,7 @@ const TeamPage = () => {
     {
       id: 7,
       name: "Uriah Diamond Kollie",
-      role: "US Branch Manager for Liberia",
+      role: "US Branch Manager",
       department: "management",
       image: "/images/team/nonet.png",
       bio: "Uriah manages our US operations for Liberian projects, serving as a crucial link between our American headquarters and West African initiatives. He specializes in resource allocation, international logistics, and cross-cultural project coordination.",
@@ -221,9 +221,9 @@ const TeamPage = () => {
               and development. If you're interested in joining Duke Developers,
               check out our current openings.
             </p>
-            <button className="px-8 py-3 bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white font-medium rounded-md transition-colors duration-300">
+            {/* <button className="px-8 py-3 bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white font-medium rounded-md transition-colors duration-300">
               View Career Opportunities
-            </button>
+            </button> */}
           </div>
         </motion.div>
       </div>
