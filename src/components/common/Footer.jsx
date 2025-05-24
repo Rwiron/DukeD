@@ -90,7 +90,7 @@ const Footer = () => {
                 <span>Johnsonville, Monrovia, Liberia</span>
               </p>
 
-              {/* <p className="flex items-center text-gray-400 hover:text-gray-300 transition-colors">
+              <p className="flex items-center text-gray-400 hover:text-gray-300 transition-colors">
                 <svg
                   className="w-5 h-5 mr-3 text-blue-500"
                   fill="currentColor"
@@ -103,8 +103,12 @@ const Footer = () => {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                <span>Virtual /US Maibox address</span>
-              </p> */}
+                <span className="relative group">
+                  <span className="bg-gradient-to-r from-blue-400 to-indigo-500 bg-clip-text text-transparent">Virtual Office:</span>
+                  <span className="ml-1 group-hover:text-blue-300 transition-colors duration-300">21803 Morton Rd Ste 650 #050, Katy, TX 77449</span>
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-400 group-hover:w-full transition-all duration-300"></span>
+                </span>
+              </p>
               <p className="flex items-center text-gray-400 hover:text-gray-300 transition-colors">
                 <svg
                   className="w-5 h-5 mr-3 text-blue-500"
@@ -138,7 +142,7 @@ const Footer = () => {
                 >
                   <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
                 </svg>
-                <span>+231 886 877 28 </span>
+                <span>+231 886 877 284 </span>
               </p>
               <p className="flex items-center text-gray-400 hover:text-gray-300 transition-colors">
                 <svg

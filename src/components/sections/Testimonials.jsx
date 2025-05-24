@@ -7,10 +7,9 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: "Okasa Saleh",
-      role: "Real Estate Developer",
-      image:
-        "https://st4.depositphotos.com/12071432/21067/i/450/depositphotos_210679084-stock-photo-smiling-african-american-businessman-holding.jpg",
+      name: "Calvin Nelson",
+      role: "CEO, Egg Land Liberia",
+      image: "/images/ceo.jpg",
       quote:
         "Duke Developers transformed our property into a modern space that truly feels like home. I appreciated their patience, ideas, and dedication throughout the entire project.",
     },
