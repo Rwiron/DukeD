@@ -90,7 +90,7 @@ const Footer = () => {
                 <span>Johnsonville, Monrovia, Liberia</span>
               </p>
 
-              <p className="flex items-center text-gray-400 hover:text-gray-300 transition-colors">
+              {/* <p className="flex items-center text-gray-400 hover:text-gray-300 transition-colors">
                 <svg
                   className="w-5 h-5 mr-3 text-blue-500"
                   fill="currentColor"
@@ -104,7 +104,7 @@ const Footer = () => {
                   ></path>
                 </svg>
                 <span>Virtual /US Maibox address</span>
-              </p>
+              </p> */}
               <p className="flex items-center text-gray-400 hover:text-gray-300 transition-colors">
                 <svg
                   className="w-5 h-5 mr-3 text-blue-500"
