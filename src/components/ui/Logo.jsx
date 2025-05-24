@@ -11,7 +11,7 @@ const Logo = () => {
         transition={{ duration: 0.6, ease: "easeOut" }}
       >
         <img
-          src="/images/duke1.png"
+          src="/images/dukeLogo.png"
           alt="Duke Developers"
           className="h-25 w-auto object-contain"
         />

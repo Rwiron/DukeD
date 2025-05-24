@@ -61,11 +61,13 @@ const Footer = () => {
             viewport={{ once: true }}
           >
             <div className="mb-6">
-              <img
-                src="/images/footerDuke.png"
-                alt="Duke Developers"
-                className="h-16 w-auto object-contain"
-              />
+              <div className="w-16 h-16 rounded-full bg-white flex items-center justify-center overflow-hidden">
+                <img
+                  src="/images/dukef.png"
+                  alt="Duke Developers"
+                  className="h-12 w-auto object-contain"
+                />
+              </div>
             </div>
             <p className="text-gray-400 mb-6">
               Innovative solutions for construction, software development, and
