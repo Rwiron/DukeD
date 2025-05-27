@@ -63,7 +63,7 @@ const Footer = () => {
             <div className="mb-6">
               <div className="w-16 h-16 rounded-full bg-white flex items-center justify-center overflow-hidden">
                 <img
-                  src="/images/dukef.png"
+                  src="/images/FinDuke.png"
                   alt="Duke Developers"
                   className="h-12 w-auto object-contain"
                 />
@@ -104,8 +104,12 @@ const Footer = () => {
                   ></path>
                 </svg>
                 <span className="relative group">
-                  <span className="bg-gradient-to-r from-blue-400 to-indigo-500 bg-clip-text text-transparent">Virtual Office:</span>
-                  <span className="ml-1 group-hover:text-blue-300 transition-colors duration-300">21803 Morton Rd Ste 650 #050, Katy, TX 77449</span>
+                  <span className="bg-gradient-to-r from-blue-400 to-indigo-500 bg-clip-text text-transparent">
+                    Virtual Office:
+                  </span>
+                  <span className="ml-1 group-hover:text-blue-300 transition-colors duration-300">
+                    21803 Morton Rd Ste 650 #050, Katy, TX 77449
+                  </span>
                   <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-400 group-hover:w-full transition-all duration-300"></span>
                 </span>
               </p>

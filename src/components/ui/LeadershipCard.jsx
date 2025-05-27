@@ -9,12 +9,12 @@ const LeadershipCard = ({ leader }) => {
       whileHover={{ y: -5 }}
     >
       <div className="flex flex-col md:flex-row">
-        <div className="md:w-1/3 h-64 md:h-auto relative overflow-hidden bg-white">
+        <div className="md:w-1/3 h-64 md:h-auto relative overflow-hidden bg-gray-50 flex items-center justify-center">
           <LazyImage
             src={leader.image}
             alt={leader.name}
-            className="w-full h-full object-cover transform transition-transform duration-500 hover:scale-105"
-            containerClassName="bg-white"
+            className="h-full w-auto object-contain scale-[0.7] sm:scale-[0.75] md:scale-[0.8]"
+            containerClassName="bg-transparent flex items-center justify-center"
           />
         </div>
         <div className="md:w-2/3 p-6">

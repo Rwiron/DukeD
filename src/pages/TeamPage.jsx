@@ -82,7 +82,7 @@ const TeamPage = () => {
       role: "US Branch Manager",
       department: "management",
       image: "/images/team/nonet.png",
-      bio: "Uriah manages our US operations for Liberian projects, serving as a crucial link between our American headquarters and West African initiatives. He specializes in resource allocation, international logistics, and cross-cultural project coordination.",
+      bio: "As Office Manager at Duke Developers USA, Uriah D. Kollie ensures seamless daily operations, fostering efficiency and organization. With expertise in administration, team coordination, and workflow optimization, he plays a vital role in the company's success. His leadership and dedication create a productive work environment.",
       linkedin: "#",
       twitter: "#",
       email: "uriah@dukedevelopersinc.com",

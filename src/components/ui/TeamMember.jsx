@@ -11,12 +11,12 @@ const TeamMember = ({ member }) => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <div className="h-64 overflow-hidden bg-white">
+      <div className="h-64 overflow-hidden bg-white-50 flex items-center justify-center">
         <LazyImage
           src={member.image}
           alt={member.name}
-          className="w-full h-full object-cover transform transition-transform duration-500 hover:scale-105"
-          containerClassName="bg-white"
+          className="h-full w-auto object-contain scale-[0.7] sm:scale-[0.75] md:scale-[0.8]"
+          containerClassName="bg-transparent flex items-center justify-center"
         />
       </div>
       <div className="p-6">
