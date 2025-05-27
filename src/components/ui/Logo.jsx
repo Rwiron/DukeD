@@ -11,9 +11,9 @@ const Logo = () => {
         transition={{ duration: 0.6, ease: "easeOut" }}
       >
         <img
-          src="/images/FinDuke.png"
+          src="/images/Final.png"
           alt="Duke Developers"
-          className="h-25 w-auto object-contain"
+          className="h-38 w-auto object-contain"
         />
       </motion.div>
     </Link>

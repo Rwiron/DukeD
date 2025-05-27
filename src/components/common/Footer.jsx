@@ -63,7 +63,7 @@ const Footer = () => {
             <div className="mb-6">
               <div className="w-16 h-16 rounded-full bg-white flex items-center justify-center overflow-hidden">
                 <img
-                  src="/images/FinDuke.png"
+                  src="/images/Final.png"
                   alt="Duke Developers"
                   className="h-12 w-auto object-contain"
                 />
