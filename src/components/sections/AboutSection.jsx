@@ -71,49 +71,23 @@ const AboutSection = () => {
 
             <motion.div className="space-y-4 text-gray-600" variants={fadeIn}>
               <p>
-                Duke Developers started in 2013 with a simple goal: to help
-                bring ideas to life through thoughtful design, careful planning,
-                and solid execution. Over the years, we’ve grown into a trusted
-                partner in construction, project management, IT services, and
-                interior and exterior design. We’ve worked across Africa, North
-                America, and Europe, completing more than 350 projects—each one
-                a reflection of our commitment to quality and detail.
+                Duke Developers officially registered as a business in Liberia in 2021, but our journey began earlier as subcontractors in the construction industry. We started with a simple goal: to help bring ideas to life through thoughtful design, careful planning, and solid execution. Today, we've evolved into a trusted partner offering comprehensive services in construction, project management, IT solutions, and interior and exterior design across various regions.
               </p>
 
               <p>
-                What makes us different isn’t just the work we do—it’s how we do
-                it. Our team cares deeply about every project, no matter the
-                size. We take time to understand what each client really needs
-                and use the latest tools and ideas to make it happen. Whether
-                it's building a new office, developing a website, or designing
-                an energy-efficient home, we always keep people at the center of
-                our work.
+                What makes us different isn't just the work we do—it's how we do it. Our team brings passion and dedication to every project, regardless of scale. We believe in taking the time to understand each client's unique vision and requirements, then applying innovative approaches to make that vision a reality. Whether it's constructing a commercial building, developing custom software, or designing functional spaces, we place people at the center of our work.
               </p>
 
               <p>
-                In 2023, we completed 42 major projects across 15 countries.
-                Some highlights include the Riverfront Office Complex in Seattle
-                and our new Smart Building Management System, which helps
-                businesses cut energy costs by up to 30%. These projects aren’t
-                just wins for us—they’re examples of how modern technology and
-                thoughtful design can make life better for people using the
-                spaces we create.
+                We've been steadily building our portfolio of successful projects, each one strengthening our reputation for quality and reliability. Our approach combines local knowledge with international standards, allowing us to deliver solutions that are both contextually appropriate and forward-thinking. We take pride in implementing sustainable practices and utilizing modern technologies that enhance the value and performance of our deliverables.
               </p>
 
               <p>
-                We’re proud to say that 98% of our clients report being happy
-                with the results. Many come back for more work or recommend us
-                to others. That kind of trust means everything to us. It pushes
-                us to stay curious, learn more, and keep improving.
+                Client satisfaction drives everything we do. We measure our success not just by completed projects, but by the relationships we build and maintain. Many of our clients return for additional work and refer us to others—a testament to the trust we've established and the quality we consistently deliver. This feedback energizes us to continue learning, adapting, and improving our services.
               </p>
 
               <p>
-                As we look to the future, we’re excited about exploring new
-                ideas in green construction, smart technologies, and ways to
-                share our knowledge with the next generation of builders and
-                developers. We believe in building more than projects—we believe
-                in building relationships, solving real problems, and leaving
-                things better than we found them.
+                Looking ahead, we're excited about exploring new frontiers in sustainable construction, smart technologies, and innovative design. We remain committed to our founding principles—building strong relationships, solving real-world challenges, and creating lasting positive impact in every community where we work. At Duke Developers, we're not just constructing buildings or designing systems; we're helping shape better environments for people to live, work, and thrive.
               </p>
             </motion.div>
 

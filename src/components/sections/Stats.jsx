@@ -1,11 +1,10 @@
 import { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
-
 const Stats = () => {
   const stats = [
     {
       id: 1,
-      value: 15,
+      value: 4,
       label: "Years Experience",
       suffix: "+",
       icon: (
@@ -43,7 +42,7 @@ const Stats = () => {
     },
     {
       id: 2,
-      value: 120,
+      value: 15,
       label: "Satisfied Clients",
       suffix: "+",
       icon: (
@@ -81,7 +80,7 @@ const Stats = () => {
     },
     {
       id: 3,
-      value: 150,
+      value: 10,
       label: "Completed Projects",
       suffix: "+",
       icon: (
@@ -112,7 +111,7 @@ const Stats = () => {
     },
     {
       id: 4,
-      value: 25,
+      value: 5,
       label: "Ongoing Projects",
       suffix: "",
       icon: (

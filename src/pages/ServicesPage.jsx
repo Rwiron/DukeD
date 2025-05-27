@@ -33,7 +33,8 @@ const ServicesPage = () => {
       title: "General Construction",
       description:
         "From commercial buildings to residential homes, we ensure top-quality construction tailored to your needs.",
-      image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1000&auto=format&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1000&auto=format&fit=crop",
       category: "construction",
       icon: (
         <svg
@@ -57,7 +58,8 @@ const ServicesPage = () => {
       title: "Project Management",
       description:
         "We manage your projects from inception to completion, optimizing resources and mitigating risks effectively.",
-      image: "https://images.unsplash.com/photo-1517581177682-a085bb7ffb38?q=80&w=1000&auto=format&fit=crop",
+      image:
+        "https://constructionreviewonline.com/knowhow/wp-content/uploads/2018/02/Engineering-project-management.jpg",
       category: "construction",
       icon: (
         <svg
@@ -81,7 +83,8 @@ const ServicesPage = () => {
       title: "Software & IT Services",
       description:
         "From software development to IT consulting, we deliver tailored technology solutions for businesses.",
-      image: "https://images.unsplash.com/photo-1550439062-609e1531270e?q=80&w=1000&auto=format&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1550439062-609e1531270e?q=80&w=1000&auto=format&fit=crop",
       category: "software",
       icon: (
         <svg
@@ -105,7 +108,8 @@ const ServicesPage = () => {
       title: "Interior & Exterior Design",
       description:
         "Experience exceptional interior and exterior designs that blend aesthetics with functionality.",
-      image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1000&auto=format&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1000&auto=format&fit=crop",
       category: "design",
       icon: (
         <svg
@@ -129,7 +133,8 @@ const ServicesPage = () => {
       title: "Renewable Energy Solutions",
       description:
         "We provide advanced solutions for renewable energy, ensuring a greener and more sustainable future.",
-      image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=1000&auto=format&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=1000&auto=format&fit=crop",
       category: "energy",
       icon: (
         <svg
@@ -153,7 +158,8 @@ const ServicesPage = () => {
       title: "Electrical Equipment Supply",
       description:
         "From smart meters to transformers, we supply electrical equipment tailored to your specifications.",
-      image: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?q=80&w=1000&auto=format&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?q=80&w=1000&auto=format&fit=crop",
       category: "energy",
       icon: (
         <svg
@@ -247,8 +253,6 @@ const ServicesPage = () => {
   return (
     <div className="pt-24 bg-gradient-to-b from-white to-gray-50">
       <div className="container mx-auto px-4 py-16">
-       
-
         <SectionHeading
           subtitle="Our Services"
           title="What We Offer"
@@ -416,7 +420,10 @@ const ServicesPage = () => {
               Our team of experts is ready to help you with a personalized
               service package tailored to your specific requirements.
             </p>
-            <Link to="/contact" className="px-8 py-3 bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white font-medium rounded-md transition-colors duration-300">
+            <Link
+              to="/contact"
+              className="px-8 py-3 bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white font-medium rounded-md transition-colors duration-300"
+            >
               Contact Us
             </Link>
           </div>

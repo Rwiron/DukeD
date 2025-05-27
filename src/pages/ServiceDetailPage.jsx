@@ -11,7 +11,8 @@ const serviceDetails = {
       "From commercial buildings to residential homes, we ensure top-quality construction tailored to your needs.",
     longDescription:
       "Our General Construction services cover everything from large commercial projects to custom residential homes. With decades of experience in the industry, our team of certified professionals ensures that every project is completed to the highest standards of quality and safety. We manage the entire process from initial planning and design to the final inspection, making sure your vision becomes reality while staying within budget and timeline constraints.",
-    image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1000&auto=format&fit=crop",
+    image:
+      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1000&auto=format&fit=crop",
     features: [
       "Commercial building construction",
       "Residential home building",
@@ -28,7 +29,7 @@ const serviceDetails = {
       "Sustainable construction methods",
     ],
     caseStudyImages: [
-      "https://images.unsplash.com/photo-1517581177682-a085bb7ffb38?q=80&w=1000&auto=format&fit=crop",
+      "https://constructiontoday.co.ke/wp-content/uploads/2021/05/GettyImages-153937471.jpg",
       "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1000&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1000&auto=format&fit=crop",
     ],
@@ -39,7 +40,8 @@ const serviceDetails = {
       "We manage your projects from inception to completion, optimizing resources and mitigating risks effectively.",
     longDescription:
       "Our Project Management services provide comprehensive oversight for construction and development projects of all sizes. We coordinate every aspect of your project, from planning and budgeting to scheduling and quality control. Our experienced project managers act as your advocate throughout the process, ensuring that all work meets specifications and is completed efficiently. We focus on communication, cost management, and risk mitigation to deliver successful outcomes.",
-    image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+    image:
+      "https://constructionreviewonline.com/knowhow/wp-content/uploads/2018/02/Engineering-project-management.jpg",
     features: [
       "Project planning and scheduling",
       "Budget development and management",
@@ -67,7 +69,8 @@ const serviceDetails = {
       "From software development to IT consulting, we deliver tailored technology solutions for businesses.",
     longDescription:
       "Our Software & IT Services team develops custom digital solutions that drive business growth and operational efficiency. Whether you need a mobile application, enterprise software, or IT infrastructure support, we deliver technology solutions that align with your business objectives. Our development process is collaborative and transparent, ensuring that the final product meets your specific requirements while providing an exceptional user experience.",
-    image: "https://images.unsplash.com/photo-1550439062-609e1531270e?q=80&w=1000&auto=format&fit=crop",
+    image:
+      "https://images.unsplash.com/photo-1550439062-609e1531270e?q=80&w=1000&auto=format&fit=crop",
     features: [
       "Custom software development",
       "Mobile application development",
@@ -95,7 +98,8 @@ const serviceDetails = {
       "Experience exceptional interior and exterior designs that blend aesthetics with functionality.",
     longDescription:
       "Our Interior & Exterior Design services transform spaces into beautiful, functional environments that reflect your unique style and meet your specific needs. Our team of experienced designers works closely with clients to understand their vision, preferences, and requirements, then creates comprehensive design plans that balance aesthetics with practicality. From concept development to material selection and final implementation, we handle all aspects of the design process.",
-    image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1000&auto=format&fit=crop",
+    image:
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1000&auto=format&fit=crop",
     features: [
       "Interior space planning and design",
       "Exterior facade and landscape design",
@@ -123,7 +127,8 @@ const serviceDetails = {
       "We provide advanced solutions for renewable energy, ensuring a greener and more sustainable future.",
     longDescription:
       "Our Renewable Energy Solutions help businesses and homeowners reduce their carbon footprint while saving on energy costs. We specialize in the design, installation, and maintenance of solar, wind, and other renewable energy systems. Our team conducts thorough assessments to determine the most efficient and cost-effective solutions for your specific location and energy needs, then manages the entire implementation process from permitting to final connection.",
-    image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=1000&auto=format&fit=crop",
+    image:
+      "https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=1000&auto=format&fit=crop",
     features: [
       "Solar panel installation and maintenance",
       "Wind energy solutions",
@@ -151,7 +156,8 @@ const serviceDetails = {
       "From smart meters to transformers, we supply electrical equipment tailored to your specifications.",
     longDescription:
       "Our Electrical Equipment Supply service provides high-quality electrical components and systems for commercial, industrial, and residential applications. We source equipment from leading manufacturers and offer expert guidance to help you select the right products for your specific needs. Our comprehensive inventory includes everything from basic electrical supplies to specialized equipment for renewable energy systems and smart building technology.",
-    image: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?q=80&w=1000&auto=format&fit=crop",
+    image:
+      "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?q=80&w=1000&auto=format&fit=crop",
     features: [
       "Smart meters and monitoring equipment",
       "Transformers and power distribution equipment",
@@ -169,7 +175,7 @@ const serviceDetails = {
     ],
     caseStudyImages: [
       "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1624969862293-b749659a85f3?q=80&w=1000&auto=format&fit=crop",
+      "https://www.eprmagazine.com/wp-content/uploads/2021/04/Distribution-Transformer.jpg",
       "https://images.unsplash.com/photo-1495954380655-01609180eda3?q=80&w=1000&auto=format&fit=crop",
     ],
   },
@@ -198,7 +204,7 @@ const serviceDetails = {
       "Valuable asset data for long-term facility management",
     ],
     caseStudyImages: [
-      "https://images.unsplash.com/photo-1542621334-a254cf47733d?q=80&w=1000&auto=format&fit=crop",
+      // "https://images.unsplash.com/photo-1542621334-a254cf47733d?q=80&w=1000&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?q=80&w=1000&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1000&auto=format&fit=crop",
     ],

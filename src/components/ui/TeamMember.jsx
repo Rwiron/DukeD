@@ -11,7 +11,7 @@ const TeamMember = ({ member }) => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <div className="h-64 overflow-hidden bg-white-50 flex items-center justify-center">
+      <div className="h-64 overflow-hidden bg-gray-50 flex items-center justify-center">
         <LazyImage
           src={member.image}
           alt={member.name}

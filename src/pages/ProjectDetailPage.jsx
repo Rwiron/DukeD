@@ -25,7 +25,7 @@ The construction utilized sustainable and locally-sourced materials where possib
       "https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=1469&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=1470&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1497366811353-6870744d04b2?q=80&w=1469&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1622126806142-50b9fb26dba8?q=80&w=1470&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366811353-6870744d04b2?q=80&w=1469&auto=format&fit=crop",
     ],
     client: "Pacific Northwest Development Corp.",
     duration: "24 months",
@@ -96,11 +96,11 @@ Key project components included:
 
 The project was completed on an accelerated timeline of just 9 months from initial design to grid connection, demonstrating our ability to efficiently manage large-scale renewable energy installations. The solar farm is expected to operate for at least 25 years with minimal maintenance requirements.`,
     image:
-      "https://images.unsplash.com/photo-1509391366360-2959dba8436c?q=80&w=1974&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1466611653911-95081537e5b7?q=80&w=1000&auto=format&fit=crop",
     gallery: [
-      "https://images.unsplash.com/photo-1559087316-b0e30cf8b8db?q=80&w=1470&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1521618755572-156ae0cdd74d?q=80&w=1000&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?q=80&w=1470&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1509391618207-32b67e06e92d?q=80&w=1470&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=1000&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1579353977828-2a4eab540b9a?q=80&w=1374&auto=format&fit=crop",
     ],
     client: "Arizona Clean Energy Partners",

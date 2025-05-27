@@ -117,90 +117,113 @@ const TeamPage = () => {
             description="The dedicated professionals behind Duke Developers bring diverse expertise in construction, energy solutions, software development, and global trade to deliver exceptional service and innovative solutions."
           />
         </motion.div>
-        {/* Leadership Showcase */}
-        <motion.div
-          className="mt-16"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
-        >
-          <h2 className="text-2xl font-bold text-gray-800 mb-8 text-center">
-            Leadership
-          </h2>
-          <div className="flex justify-center">
-            <div className="max-w-3xl w-full">
+
+        {/* Mobile View - All Members as LeadershipCards */}
+        <div className="md:hidden">
+          <motion.div
+            className="mt-12 space-y-8"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+          >
+            <h2 className="text-2xl font-bold text-gray-800 mb-8 text-center">
+              Our Team
+            </h2>
+            <div className="space-y-6">
+              {teamMembers.map((member) => (
+                <LeadershipCard key={member.id} leader={member} />
+              ))}
+            </div>
+          </motion.div>
+        </div>
+
+        {/* Desktop View - Categorized Sections */}
+        <div className="hidden md:block">
+          {/* Leadership Showcase */}
+          <motion.div
+            className="mt-16"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+          >
+            <h2 className="text-2xl font-bold text-gray-800 mb-8 text-center">
+              Leadership
+            </h2>
+            <div className="flex justify-center">
+              <div className="max-w-3xl w-full">
+                {teamMembers
+                  .filter((member) => member.department === "leadership")
+                  .map((leader) => (
+                    <LeadershipCard key={leader.id} leader={leader} />
+                  ))}
+              </div>
+            </div>
+          </motion.div>
+
+          {/* Core Team Showcase */}
+          <motion.div
+            className="mt-16"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.3 }}
+          >
+            <h2 className="text-2xl font-bold text-gray-800 mb-8 text-center">
+              Core Team
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {teamMembers
-                .filter((member) => member.department === "leadership")
-                .map((leader) => (
-                  <LeadershipCard key={leader.id} leader={leader} />
+                .filter((member) => member.id >= 2 && member.id <= 5)
+                .map((member) => (
+                  <LeadershipCard key={member.id} leader={member} />
                 ))}
             </div>
-          </div>
-        </motion.div>
+          </motion.div>
 
-        {/* Core Team Showcase */}
-        <motion.div
-          className="mt-16"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.3 }}
-        >
-          <h2 className="text-2xl font-bold text-gray-800 mb-8 text-center">
-            Core Team
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {teamMembers
-              .filter((member) => member.id >= 2 && member.id <= 5)
-              .map((member) => (
-                <LeadershipCard key={member.id} leader={member} />
+          {/* Branch Management */}
+          <motion.div
+            className="mt-16"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.4 }}
+          >
+            <h2 className="text-2xl font-bold text-gray-800 mb-8 text-center">
+              Branch Management
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {teamMembers
+                .filter((member) => member.id >= 6 && member.id <= 7)
+                .map((member) => (
+                  <LeadershipCard key={member.id} leader={member} />
+                ))}
+            </div>
+          </motion.div>
+
+          {/* Department Tabs */}
+          <div className="mt-24">
+            <div className="flex flex-wrap justify-center gap-3 mb-12">
+              {departments.map((department) => (
+                <motion.button
+                  key={department.id}
+                  className={`px-5 py-2.5 rounded-full text-sm font-medium transition-all duration-300 ${
+                    activeTab === department.id
+                      ? "bg-blue-600 text-white shadow-md"
+                      : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+                  }`}
+                  onClick={() => setActiveTab(department.id)}
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                >
+                  {department.name}
+                </motion.button>
               ))}
-          </div>
-        </motion.div>
+            </div>
 
-        {/* Branch Management */}
-        <motion.div
-          className="mt-16"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.4 }}
-        >
-          <h2 className="text-2xl font-bold text-gray-800 mb-8 text-center">
-            Branch Management
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {teamMembers
-              .filter((member) => member.id >= 6 && member.id <= 7)
-              .map((member) => (
-                <LeadershipCard key={member.id} leader={member} />
+            {/* Team Grid */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+              {filteredMembers.map((member) => (
+                <TeamMember key={member.id} member={member} />
               ))}
-          </div>
-        </motion.div>
-
-        {/* Department Tabs */}
-        <div className="mt-24">
-          <div className="flex flex-wrap justify-center gap-3 mb-12">
-            {departments.map((department) => (
-              <motion.button
-                key={department.id}
-                className={`px-5 py-2.5 rounded-full text-sm font-medium transition-all duration-300 ${
-                  activeTab === department.id
-                    ? "bg-blue-600 text-white shadow-md"
-                    : "bg-gray-100 text-gray-700 hover:bg-gray-200"
-                }`}
-                onClick={() => setActiveTab(department.id)}
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                {department.name}
-              </motion.button>
-            ))}
-          </div>
-
-          {/* Team Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-            {filteredMembers.map((member) => (
-              <TeamMember key={member.id} member={member} />
-            ))}
+            </div>
           </div>
         </div>
 

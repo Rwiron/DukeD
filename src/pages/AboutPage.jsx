@@ -30,34 +30,34 @@ const AboutPage = () => {
 
   const milestones = [
     {
-      year: "2013",
+      year: "2021",
       title: "Company Founded",
       description:
-        "Duke Developers was established with a vision to transform the construction industry.",
+        "Duke Developers was officially registered as a business in Liberia, building on years of experience as subcontractors in the construction industry.",
     },
     {
-      year: "2015",
+      year: "2021",
       title: "Software Division",
       description:
-        "Expanded our services to include custom software solutions for businesses.",
+        "Expanded our services to include custom software solutions and IT infrastructure for businesses.",
     },
     {
-      year: "2018",
+      year: "2022",
       title: "Renewable Energy Focus",
       description:
-        "Incorporated renewable energy solutions into our service offerings.",
+        "Incorporated renewable energy solutions including solar and hybrid systems into our service offerings.",
     },
     {
-      year: "2020",
+      year: "2022",
       title: "International Expansion",
       description:
-        "Began expanding our services to international markets across Europe and Asia.",
+        "Began expanding our services to international markets with our comprehensive project management approach.",
     },
     {
       year: "2023",
       title: "Sustainability Milestone",
       description:
-        "Achieved carbon neutrality in all our operations and project implementations.",
+        "Implemented sustainable practices and modern technologies across all our construction and design projects.",
     },
   ];
 
