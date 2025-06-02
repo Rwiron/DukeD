@@ -125,7 +125,7 @@ const AboutPage = () => {
                     initial={{ opacity: 1, y: 0 }}
                     animate={{ opacity: 1, y: 0 }}
                   >
-                    Founded in 2013, Duke Developers began as a visionary
+                    Founded in 2021, Duke Developers began as a visionary
                     startup with a mission to disrupt traditional development
                     paradigms. Our founder, Alex Johnson, recognized an
                     opportunity to blend construction expertise with
